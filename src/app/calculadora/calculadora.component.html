@@ -1,0 +1,31 @@
+<div class='container'>
+      <div class="display">
+            <div class="resultado">{{resultado}}</div>
+            <div class="operacion">{{operacion}}</div>
+      </div>
+      <div class="row">
+            <div class="col-3 tecla" (click)="recogerOperacion('1')">{{botones[0]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion('2')">{{botones[1]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion('3')">{{botones[2]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion(' + ')">{{botones[3]}}</div>
+      </div>
+      <div class="row">
+            <div class="col-3 tecla" (click)="recogerOperacion('4')">{{botones[4]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion('5')">{{botones[5]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion('6')">{{botones[6]}}</div>
+            <div class="col-3 tecla" (click)="recogerOperacion(' - ')">{{botones[7]}}</div>
+      </div>
+
+  <div class="row">
+        <div class="col-3 tecla" (click)="recogerOperacion('7')">{{botones[8]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion('8')">{{botones[9]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion('9')">{{botones[10]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion(' * ')">{{botones[11]}}</div>
+  </div>
+  <div class="row">
+        <div class="col-3 tecla" (click)="recogerOperacion('0')">{{botones[12]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion(' = ')">{{botones[13]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion(' % ')">{{botones[14]}}</div>
+        <div class="col-3 tecla" (click)="recogerOperacion(' / ')">{{botones[15]}}</div>
+  </div>
+</div>
